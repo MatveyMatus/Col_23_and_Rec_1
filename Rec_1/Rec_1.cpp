@@ -38,23 +38,23 @@ int main()
         char y;
         char u;
         int i, j;
-        cout << " ђекусивный вариант или нерекусивный вариант вычислений? [R/b]" << endl;
+        cout << "Recursive version or non-recursive version of calculations? [R/b]" << endl;
         cin >> u;
         if (u == 'R' || u == 'r') {
-            cout << " ‚ведите число: ";
+            cout << "Insert the number: ";
             cin >> i;
-            cout << " ‚ведите степень числа: ";
+            cout << "Enter the degree of the number: ";
             cin >> j;
             cout << power_R(i, j) << endl;
         }
         else {
-            cout << " ‚ведите число: ";
+            cout << "Insert the number: ";
             cin >> i;
-            cout << " ‚ведите степень числа: ";
+            cout << "Enter the degree of the number: ";
             cin >> j;
             cout << power_b(i, j) << endl;
         }
-        cout << " •отите выйти? [Y/n]" << endl;
+        cout << " Do you want to get out? [Y/n]" << endl;
         cin >> y;
         if (y == 'y' || y == 'Y') {
             return 0;
